@@ -46,12 +46,66 @@ In a Terminal, navigate to the directory (folder) you've downloaded the file to.
 ```
 apm install --packages-file packages.txt
 ```
-
 (Atom will start automatically installing all the plugins in the list, and it may take a bit of time. That's ok.)
 
-### Pick and choose plugins to install:
+#### Update all packages (if needed)
 
-Click on links to see more details about each package. Remember you are getting all of these if you quick-install the plugins using the instructions above.
+In Atom, go to Settings (using CMD+, OR CTRL+,) -> Updates -> Update All.
+
+### Important Note on Plugins
+
+If you don't want to automatically install the plugins (or if it didn't work for some reason), below you will find the same list of plugins to choose from, each with a little note on what it does. You can them manually pick whichever ones you want to install.
+
+## Step 3: Themes and UI
+
+You will find a lot of other themes being recommended that the majority of people prefers, but I've tried them out and they didn't work out as well for me. Here is what I use and I find it to be esthetically pleasing, comfortable to read and reason about the code, and easy on the eyes (as I stare at the code).
+
+UI Theme: One Dark (comes with Atom by default)
+
+Syntax Theme: (Cobalt2)[https://atom.io/themes/cobalt2-syntax] (by Wes Bos)
+
+* If you've installed the packages from the packages.txt file above, you will already have Cobalt2 installed on Atom.
+
+## Step 4: Getting Productive with Shortcuts - Mac (Windows)
+
+If you remember one shortcut (key combination) - make it this one:
+CMD+SHIFT+P (CTRL+SHIFT+P) - it opens Command Pallette where you can search for any actions that your installed plugins might provide. An example would be: if you have Markdown Previewer installed, after this combination you enter 'Markd' and hit 'Enter' and it will automatically open the current .md file in a Markdown Previewer tab (it uses 'fuzzy' search so you don't have to type in the whole word).
+
+Besides the ones below, remember that all the copy/paste/save shortcuts also work. 
+
+General:
+
+| Action           | Mac           | Windows      |
+| ---------------- |:-------------:|:------------:|
+| Open Settings    | CMD+,         | CTRL+,       |
+| Search File      | CDM+F         | CTRL+F       |
+| Search Project   | CDM+SHIFT+F   | CTRL+SHIFT+F |
+| Create a File    | CMD+N         | CTRL+N       |
+
+Productivity:
+
+| Action           | Mac            | Windows        |
+| ---------------- |:--------------:|:--------------:|
+| Duplicate a line | CMD+SHIFT+D    | CTRL+SHIFT+D   |
+| Multiple Cursors | CMD+Mouseclick |CTRL+Mouseclick |
+| Select a line    | CMD+L          | CTRL+L         |
+| Pick a Color*    | CMD+SHIFT+C    | CTRL+SHIFT+C   |
+
+Asterisk indicates that you need to have a plugin installed to enable the shortcut.
+
+# Congratulations, you are all set!
+
+
+
+## General Advice/Tips
+
+1. You can modify how the display is divided into windows: take the file by its name on top and drag around the screen. You will see that Atom will start helping you by highlighting parts of the screen where you could 'drop' the file, for example- into a right half of the screen. Once you release the file, the window will be divided as was shown and you will be able to look and edit both files.
+
+2. Building on the above, if you work with HTML+CSS it is convenient to have a CSS file open on the right (1/4 of the screen or so), and the main file you work with on the left (taking up the majority of space there).
+ 
+## Pick and choose plugins to install:
+
+If you decided to manually install the plugins, here is a list of the plugins that are part of the standard Molecule packages.txt selection .Click on links to see more details about each package. Remember you are getting all of these if you quick-install the plugins using the instructions above.
 
 1. [Emmet](https://atom.io/packages/emmet)
 
@@ -133,58 +187,10 @@ Markdown Preview Plus provides a real-time preview of markdown documents.
 18. [Language Babel](https://atom.io/packages/language-babel)
 
 JavaScript ES201x, React JSX, Flow and GraphQL Grammar. Babel Transpiler.
-
-#### Update all packages
-
-In Atom, go to Settings (using CMD+, OR CTRL+,) -> Updates -> Update All.
-
-## Step 3: Themes and UI
-
-You will find a lot of other themes being recommended that the majority of people prefers, but I've tried them out and they didn't work out as well for me. Here is what I use and I find it to be esthetically pleasing, comfortable to read and reason about the code, and easy on the eyes (as I stare at the code).
-
-UI Theme: One Dark (comes with Atom by default)
-Syntax Theme: (Cobalt2)[https://atom.io/themes/cobalt2-syntax] (by Wes Bos)
-
-* If you've installed the packages from the packages.txt file above, you will already have Cobalt2 installed on Atom.
-
-## Step 4: Getting Productive with Shortcuts - Mac (Windows)
-
-If you remember one shortcut (key combination) - make it this one:
-CMD+SHIFT+P (CTRL+SHIFT+P) - it opens Command Pallette where you can search for any actions that your installed plugins might provide. An example would be: if you have Markdown Previewer installed, after this combination you enter 'Markd' and hit 'Enter' and it will automatically open the current .md file in a Markdown Previewer tab (it uses 'fuzzy' search so you don't have to type in the whole word).
-
-Besides the ones below, remember that all the copy/paste/save shortcuts also work. 
-
-General:
-
-| Action           | Mac           | Windows      |
-| ---------------- |:-------------:|:------------:|
-| Open Settings    | CMD+,         | CTRL+,       |
-| Search File      | CDM+F         | CTRL+F       |
-| Search Project   | CDM+SHIFT+F   | CTRL+SHIFT+F |
-| Create a File    | CMD+N         | CTRL+N       |
-
-Productivity:
-
-| Action           | Mac            | Windows        |
-| ---------------- |:--------------:|:--------------:|
-| Duplicate a line | CMD+SHIFT+D    | CTRL+SHIFT+D   |
-| Multiple Cursors | CMD+Mouseclick |CTRL+Mouseclick |
-| Select a line    | CMD+L          | CTRL+L         |
-| Pick a Color*    | CMD+SHIFT+C    | CTRL+SHIFT+C   |
-
-Asterisk indicates that you need to have a plugin installed to enable the shortcut.
-
-# Congratulations, you are all set!
-
-Read on to get some other tips and info on niche, more specific (but very useful) plugins.
-
-## General Advice/Tips
-
-1. You can modify how the display is divided into windows: take the file by its name on top and drag around the screen. You will see that Atom will start helping you by highlighting parts of the screen where you could 'drop' the file, for example- into a right half of the screen. Once you release the file, the window will be divided as was shown and you will be able to look and edit both files.
-
-2. Building on the above, if you work with HTML+CSS it is convenient to have a CSS file open on the right (1/4 of the screen or so), and the main file you work with on the left (taking up the majority of space there).
  
 ## Other Amazing plugins (these are less general but amazingly useful)
+
+Read on to get some other tips and info on niche, more specific (but very useful) plugins.
 
 1. [SVG Preview](https://atom.io/packages/svg-preview)
 Add SVG Preview to Atom
