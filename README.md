@@ -38,6 +38,8 @@ One of the coolest things I've found regarding plugins in Atom (besides the fact
 
 2. Download this file into a folder that's easy for youe to navigate in a Terminal (or bash): 
 
+(It might be easier to click on the link below, then on the right click on "Raw" button, and save the contents of the file anywhere you want on your computer - and name it 'packages.txt')
+
 Download [packages.txt](packages.txt)
 
 In a Terminal, navigate to the directory (folder) you've downloaded the file to. Run the following command:
