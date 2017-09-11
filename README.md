@@ -1,8 +1,10 @@
 # Atom Into Molecule - Get an IDE for free.
 
+This repo provides a way to simplify the setup (including the essential packages (plugins) and settings) to quickly set up your Atom Editor, making it comparable to a full-blown IDE in terms of features and productivity.
+
 ["TLDR; No time, I just want to set everything up quickly!"](quick-setup.md)
 
-This repo provides a way to simplify the setup (including the essential packages (plugins) and settings) to quickly set up your Atom Editor, making it comparable to a full-blown IDE in terms of features and productivity. I promise that once you give Atom a try, it will be difficult to use any other editor. At least, that's been my experience so far. :)
+I promise that once you give Atom a try, it will be difficult to use any other editor. At least, that's been my experience so far. :)
 
 Note: This repo is being updated/fixed as I go. Please provide any feedback that you might have and I will do my best to improve it. I will also be adding lists of useful packages for some programming languages, especially for the ones beginners usually start with - to help them get used to coding in an editor. 
 
